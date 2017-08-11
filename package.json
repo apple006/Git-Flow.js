@@ -1,0 +1,36 @@
+{
+  "name": "git-flow",
+  "version": "0.1.0",
+  "description": "Command-line tool for GitHub-like workflow",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "npm install husky"
+  },
+  "keywords": [
+    "Git",
+    "GitHub",
+    "workflow",
+    "javascript",
+    "command-line"
+  ],
+  "author": "shiy007@qq.com",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.4",
+    "simple-git": "^1.75.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TechQuery/Git-Flow.js.git"
+  },
+  "keywords": [
+    "javascript",
+    "command-line"
+  ],
+  "bugs": {
+    "url": "https://github.com/TechQuery/Git-Flow.js/issues"
+  },
+  "homepage": "https://github.com/TechQuery/Git-Flow.js#readme"
+}
